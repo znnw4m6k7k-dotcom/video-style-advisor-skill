@@ -1,0 +1,964 @@
+{
+ "source": "github.com/lemomo-ai/lemo-opuscar",
+ "styles": [
+  {
+   "slug": "archive-lighttable",
+   "cn": "档案灯台",
+   "en": "Archive Light Table",
+   "category": "实证影像",
+   "uses": [
+    "Brand history & anniversaries",
+    "Documentary & archive explainers",
+    "Museum & collection stories"
+   ],
+   "look": "Real archive objects (glass negatives, slides, letters, telegrams, clippings, drawings) lie on a cool, backlit light table. A loupe comes down on one of them, and inside the glass the object comes alive: a negative…",
+   "music": "Music: restrained and small: a felt piano, a few strings, glass or bowed metal for the moments of seeing. Build by subdivision and register, not by drums. Leave real silences before a reveal or a verdict; the first sound after them should be the loupe, the…",
+   "fits": [
+    "a founder's portrait plate; a factory on a lantern slide; an X-ray film becoming the product inside",
+    "a ledger entry; a patent claim; the first order on an invoice",
+    "the first shop front; a launch day crowd; an expedition camp",
+    "a race distance; a bridge span; a building's height"
+   ]
+  },
+  {
+   "slug": "art-deco",
+   "cn": "装饰艺术",
+   "en": "Art Deco",
+   "category": "图形与排版",
+   "uses": [
+    "Luxury & hospitality",
+    "Galas",
+    "Invitations"
+   ],
+   "look": "Black lacquer, engraved gold line and airbrushed geometry: a 1930s poster that moves. Every composition has a centre axis, transitions open or close along it, and light arrives as bulbs switching on one by one.",
+   "music": "Symphonic jazz of the 1920s–30s, not a 60s big band. Options: stride or concert piano, clarinet (trill; a glissando by time-varying resampling of a long note), strings (tremolo, rushes, pizzicato), muted trumpet commentary, trombone and sax section, walking…",
+   "fits": [
+    "the countdown to a product launch; the letters of a city name lighting as a train arrives; votes tallied into a winner",
+    "the departments of a company; the rooms of a museum; stages of a career",
+    "a team becoming a logo; gears of a supply chain; a choir becoming a clock",
+    "a funding thermometer; the altitude of a climb; a stock ticker at the opening bell"
+   ]
+  },
+  {
+   "slug": "ascii-crt",
+   "cn": "ASCII / CRT 终端",
+   "en": "ASCII / CRT Terminal",
+   "category": "图形与排版",
+   "uses": [
+    "Developer tools",
+    "Sci-fi",
+    "Tech brands"
+   ],
+   "look": "Everything on screen is a real character on a monospace grid, lit by the phosphor of an old monochrome CRT.",
+   "music": "Music: an original analog-synth score, rendered in code (numpy / numba): PolyBLEP saw and square oscillators, a resonant 4-pole ladder filter with moving cutoff, filter envelopes, square-wave sequencers, slow tape wow (± a few cents), long reverb on pads,…",
+   "fits": [
+    "a manifesto becoming a crowd; a recipe becoming the dish; a poem becoming a landscape",
+    "a company name made of employee names; a year made of its headlines; a heart glyph made of messages",
+    "a job application; an apology; a password remembered",
+    "a hospital monitor; a night shift ending; an old archive reopened"
+   ]
+  },
+  {
+   "slug": "backrooms",
+   "cn": "后室 / 新怪谈",
+   "en": "Liminal Found Footage",
+   "category": "电影与时代",
+   "uses": [
+    "Horror",
+    "Mystery & ARG",
+    "Game teasers"
+   ],
+   "look": "Camcorder tapes recovered from empty, endless, fluorescent-lit spaces. Rules instead of monsters.",
+   "music": "No score. Only what the tape would have recorded. Music exists only inside the world (hold music, a radio through walls, a tinny PA jingle), filtered and reverberant, possibly slowing with tape wow.",
+   "fits": [
+    "a missing pet on a hotel floor; a figure in an empty stadium; a shape at the end of a hospital corridor",
+    "a night-watch log; a lost weekend in a mall; a house that ages between tapes",
+    "an alibi; a countdown; a dated inspection",
+    "a pool's safety rules; a school fire drill; a museum after hours"
+   ]
+  },
+  {
+   "slug": "blueprint",
+   "cn": "蓝图 / 工程制图",
+   "en": "Blueprint",
+   "category": "图形与排版",
+   "uses": [
+    "Engineering",
+    "Hardware launches",
+    "Tech explainers"
+   ],
+   "look": "Engineering drawings that come alive on a sheet of cyanotype paper: white technical line work on Prussian blue, drawn in drafting order, with annotations that move.",
+   "music": "Contrapuntal, mechanical music: harpsichord, bassoon, strings spiccato, harp, celesta, music box, clavichord, a small wind ensemble. Imitative lines (an invention, a canon, a fugato) feel like interlocking parts; a short repeated motive can be the \"gear\".",
+   "fits": [
+    "a bridge; a violin; a kitchen renovation",
+    "a heart valve; a folding bicycle; a rocket stage separating",
+    "versions of a product; phases of a construction; a recipe's stages",
+    "a floor plan becoming a building; a circuit board; flat-pack furniture"
+   ]
+  },
+  {
+   "slug": "brick-toy",
+   "cn": "积木玩具",
+   "en": "Brick Toy",
+   "category": "材质与 3D",
+   "uses": [
+    "Toys & kids",
+    "Product builds",
+    "Space"
+   ],
+   "look": "Stop-motion toy-brick films shot like macro photography on a real desk: a world built from interlocking plastic bricks with round studs, animated a pose at a time.",
+   "music": "Instruments: small, acoustic, playful (glockenspiel, toy piano, pizzicato, ukulele, whistling, claps, melodica); a brass or orchestral swell for scale; a heartbeat drum for suspense. Licensed or original, edited to the picture (cut on bars, bar-aligned jumps,…",
+   "fits": [
+    "a company assembling its first product; a neighbourhood rising street by street; a recipe put together ingredient by ingredient",
+    "a pivot after a failed plan; recycling; a team reshuffled into a better shape",
+    "a laptop keyboard as a city grid; a houseplant as a jungle; a coffee spill as a flood",
+    "a weather report; a kitchen explained with brick flames; a science demo of a volcano"
+   ]
+  },
+  {
+   "slug": "briefing-board",
+   "cn": "工程简报板",
+   "en": "Engineering Briefing Board",
+   "category": "实证影像",
+   "uses": [
+    "Engineering decisions",
+    "Option comparisons",
+    "Briefings & explainers"
+   ],
+   "look": "One real whiteboard wall, filmed: window light on enamel, ghosts of erased marker, frame and tray. Cut-out photographs of real things land on it with weight; tags, magnets, a ruler and stamps are pinned to it; marker…",
+   "music": "Room: an air-conditioning bed and traffic through the window, about 20 dB under the voice — audible, not a hiss; silences keep only this.",
+   "fits": []
+  },
+  {
+   "slug": "cel-anime-80s",
+   "cn": "80 年代赛璐璐动画",
+   "en": "80s Cel Anime",
+   "category": "卡通与动画",
+   "uses": [
+    "Music videos",
+    "Game trailers",
+    "Nostalgia"
+   ],
+   "look": "Hand-painted cel animation from the golden age of Japanese OVAs, re-created in code: flat two-tone cels over airbrushed backgrounds, backlit neon, limited-animation timing, played back as a late-80s videotape on a CRT…",
+   "music": "Instruments (city pop, synth funk, anime-opening pop): saxophone or synth-brass lead, FM electric piano with a bell transient, slap bass, chorus-y 16th guitar chanks, gated-reverb snare and big toms, drum machine, arpeggiated analog synth, string pad, FM bell…",
+   "fits": [
+    "a first day in a big company; a child in a museum hall; a lone researcher at an observatory",
+    "an exam result; a goodbye at a gate; an unveiling",
+    "a lantern festival; a screen full of code; a lighthouse; stage lights",
+    "a sprint final; a data packet crossing the world; a kitchen rush"
+   ]
+  },
+  {
+   "slug": "crayon-book",
+   "cn": "蜡笔儿童绘本",
+   "en": "Crayon Picture Book",
+   "category": "手绘与绘画",
+   "uses": [
+    "Picture books",
+    "Bedtime stories",
+    "Kids' learning"
+   ],
+   "look": "A picture-book page drawn live in wax crayon on toothy paper, with a watercolour wash that reveals what the crayon was hiding.",
+   "music": "Small wooden and metal-toothed instruments, no strings or grand piano: ukulele or nylon guitar, clarinet or bassoon (bass, humour), music box (can wind down with a pitch droop), glockenspiel or celesta (a note per uncovered sparkle), toy piano (one note per…",
+   "fits": [
+    "a farewell message; a product's hidden feature; roots under a garden",
+    "a bridge plank by plank; a journey map; a company timeline",
+    "a town lighting up window by window; a team putting on kit; fruit ripening",
+    "a pause for thought; grief; rest"
+   ]
+  },
+  {
+   "slug": "dark-keynote",
+   "cn": "暗色科技发布",
+   "en": "Dark Tech Keynote",
+   "category": "信息与发布",
+   "uses": [
+    "Product launches",
+    "SaaS",
+    "Keynotes"
+   ],
+   "look": "A software launch film where the interface itself is the star: near-black gradient, hairline grid, soft light, one brand accent, and UI that moves with snap-grid precision. Light reveals, one giant number, and a sound…",
+   "music": "Music as a visible process: options include phasing (two voices on one pattern, one drifting), additive build (one note per bar), subtractive process (notes removed until one is left), dividing the beat to accelerate instead of changing tempo, or one chord…",
+   "fits": [
+    "unread tickets piling up; cloud costs creeping; a dependency tree exploding",
+    "a CMS publishing to every channel; a scheduler filling a week; an audit turning green",
+    "a search box that grows ambitious; a progress ring that refuses to finish; a status dot",
+    "a security breach caught; a failed deploy; the second before \"send\""
+   ]
+  },
+  {
+   "slug": "data-physical",
+   "cn": "数据实物化",
+   "en": "Data Physicalization",
+   "category": "实证影像",
+   "uses": [
+    "Annual reports & ESG",
+    "Investor communications",
+    "Energy & climate statistics"
+   ],
+   "look": "Real statistics built as real objects: every unit is a countable piece of material (a plate, a block, a coin, a bar) stacked to exact scale on a crafted base, shot like a product in a studio — soft key, long shadows,…",
+   "music": "Score: mallets and air — marimba ostinato, bowed and struck vibraphone, harp, glass, a soft synth pad and a pulse bass with audible 2nd/3rd harmonics; horns for a turn. Accelerate by subdivision (8ths → 16ths), not tempo.",
+   "fits": [
+    "tonnes of CO₂ as steel plates; a budget as banknote bricks; a population as wooden discs",
+    "imports vs exports; renewables vs fossil capacity; two companies' revenue",
+    "this year's new hires on last year's team; a quarter's sales; a record harvest",
+    "twelve months as a clock; regions as a map-shaped base; product lines as a city"
+   ]
+  },
+  {
+   "slug": "dataviz",
+   "cn": "数据叙事",
+   "en": "Data Storytelling",
+   "category": "信息与发布",
+   "uses": [
+    "Data journalism",
+    "Reports",
+    "Climate & science"
+   ],
+   "look": "A chart that tells a story: real data, drawn mark by mark on cream paper by a red–blue pencil, with handwritten notes pinned to the numbers. The chart itself is the camera, the rhythm and the plot.",
+   "music": "Ambience follows the places the notes evoke (J-cuts in, L-cuts out). Foley is graphite, paper and wood: tick-and-paper taps, scratches for handwriting, a ruler hiss for axes, a paper puncture for a broken frame, a wooden click for the pencil flip, ratchet…",
+   "fits": [
+    "the first store a chain opened; the first patient of a trial; the first satellite launched",
+    "revenue; a city's population; vaccination rates",
+    "an athlete's season; a family's migrations; releases on a usage curve",
+    "a viral spike; a price bubble; a record-breaking flood"
+   ]
+  },
+  {
+   "slug": "engraving",
+   "cn": "铜版画",
+   "en": "Copperplate Engraving",
+   "category": "印刷与版画",
+   "uses": [
+    "Museum labels",
+    "Science explainers",
+    "Brand heritage"
+   ],
+   "look": "An intaglio plate that engraves itself: a burin cuts swelling lines into copper, a proof is pulled, and the figure builds up — outline, hatching, cross-hatching — until engraved lettering, magnified details and a…",
+   "music": "Instruments (choose): harpsichord, string quartet, solo cello or viola da gamba, lute, chamber organ, glass harmonica for a cold subject. Plucked and dry while lines are cut; bowed or sustained only when something soft arrives; tiny tings for a scribed ring,…",
+   "fits": []
+  },
+  {
+   "slug": "game-show",
+   "cn": "综艺节奏扁平",
+   "en": "Game Show Flat",
+   "category": "游戏",
+   "uses": [
+    "Tech timelines",
+    "Year in review",
+    "Variety shows"
+   ],
+   "look": "A rhythm-game variety show in flat vector: toy-like mascots with thick ink outlines on candy-coloured stripes and sunbursts, every hit landing on a fixed tempo grid, call-and-response patterns, and a judgement word when…",
+   "music": "All synthesized from the picture's events: a sine kick with soft saturation, band-passed noise snare and clap, hats, slap bass, detuned-saw brass stabs with a closing filter, square lead with vibrato, marimba-like pluck, music-box bell, triangle pad, square…",
+   "fits": [
+    "the steps of a recipe; the stages of a startup; the chapters of a museum tour",
+    "a teacher's question and the class answer; a customer order and the barista's reply; ping-pong between two negotiators",
+    "\"Delivered!\" on a logistics step; \"Approved!\" on a permit; \"Personal best!\" on a training plan",
+    "fundraising progress; calories per dish; downloads of an app"
+   ]
+  },
+  {
+   "slug": "glass-product",
+   "cn": "玻璃质感产品",
+   "en": "Glass Product Render",
+   "category": "材质与 3D",
+   "uses": [
+    "Product launches",
+    "Consumer tech",
+    "Beauty"
+   ],
+   "look": "Launch-film product rendering in transparent and frosted glass: a dark-field studio, strip-light sweeps, dispersion, caustics, light travelling inside the object, slow exploded views that snap shut on a downbeat.",
+   "music": "Minimal electronic, never piano-and-strings. Timbres, as options: bowed-glass or wet-finger tones, granular crystal clouds, glass bells and FM glass plucks, a filtered tick grid for precision, a warm pad, sub drone, soft short kicks and claps, 808 bass (sine…",
+   "fits": [
+    "a juicer's blades; a watch movement; a supplement capsule's layers",
+    "a camera module; a magnifying tool; a water filter",
+    "a prism lamp; a display's colour range; a skincare bottle",
+    "a battery filling; a router's data threads; a kettle heating"
+   ]
+  },
+  {
+   "slug": "halftone-dossier",
+   "cn": "复古半调案卷",
+   "en": "Halftone Dossier",
+   "category": "印刷与版画",
+   "uses": [
+    "Humour",
+    "Pet content",
+    "Social shorts"
+   ],
+   "look": "A retro print case file: cream archive paper, overprinted halftone dots in a few flat inks, huge heavy headlines with misregistered shadows, rubber stamps that slam, and thick-outlined characters. The film is a file…",
+   "music": "Synth pop-print toolkit: synth kick, snare, clap, hat; a square-ish 8th-note bass; triangle pad; a marimba-like pluck (fundamental + ~4× partial) for melody; pizzicato and finger snaps for sneaking; music-box bell for tenderness.",
+   "fits": [
+    "a cognitive bias on trial; a city's traffic problem; a plant that won't stop growing",
+    "five causes of a blackout; three clauses of a contract; the stages of a recall",
+    "APPROVED on a grant; EXPIRED on a policy; VERIFIED on a rumour check",
+    "a new species; a product teardown; the \"suspect\" in a bug report"
+   ]
+  },
+  {
+   "slug": "hd-2d",
+   "cn": "HD-2D",
+   "en": "HD-2D",
+   "category": "游戏",
+   "uses": [
+    "Game trailers",
+    "Fantasy",
+    "Story films"
+   ],
+   "look": "Hand-made pixel sprites standing like paper cut-outs inside a lit, fogged, fully 3D diorama, shot from a high three-quarter angle through a tilt-shift lens: a toy world where every lamp throws a real shadow.",
+   "music": "Music: chamber-fantasy or cinematic colours (harp, celesta, strings, horns, low choir, timpani) or small folk instruments (lute, recorder, hand drum). Either one piece whose own arc matches the story, cut inside it at downbeats, or an original score; a…",
+   "fits": [
+    "a shop opening at dawn; a server rack powering up; a teacher switching on a projector",
+    "a phone battery on a long trip; a patient's heart monitor; a candle vigil",
+    "a single delivery van in a city; a newborn's room in a whole hospital; one stall in a night market",
+    "users joining a network; a village getting electricity; a festival beginning"
+   ]
+  },
+  {
+   "slug": "hologram-hud",
+   "cn": "科幻全息界面",
+   "en": "Sci-fi Hologram HUD",
+   "category": "信息与发布",
+   "uses": [
+    "Product spec walkthroughs",
+    "Launch & crowdfunding videos",
+    "Trade-show screens"
+   ],
+   "look": "An object is scanned into a glowing wireframe. Target boxes lock onto its parts; each opens in a local exploded view, a leader pulls out, and its number rolls from garbage glyphs into the real value. It may light up,…",
+   "music": "Music first, on a grid (a bar = one information beat); locks land on downbeats, checked against the score.",
+   "fits": [
+    "a coffee machine; a satellite; an architectural model",
+    "a car's sensors; a laptop's ports; a robot arm's joints",
+    "the burr set of a grinder; the layers of a running shoe sole; the elements of a camera lens",
+    "a brew temperature; a tolerance in microns; a price"
+   ]
+  },
+  {
+   "slug": "impasto",
+   "cn": "油画厚涂",
+   "en": "Impasto Oil Painting",
+   "category": "手绘与绘画",
+   "uses": [
+    "Music videos",
+    "Art & culture",
+    "Emotional ads"
+   ],
+   "look": "Thick oil paint laid with a palette knife: big, flat, sharp-edged planes of colour, raked by light so every ridge of paint shows. Clarity first: value structure before texture, hard edges at the focus, calm planes…",
+   "music": "Acoustic instruments with a hand-made grain: solo strings, accordion, pizzicato, harp arpeggios, glockenspiel or celesta for pops, piano, guitar, woodwinds; a solo instrument for a lonely world, an ensemble for a shared one.",
+   "fits": [
+    "a town waking up; a patient recovering; a brand relaunch; a season turning",
+    "one person in a crowd; the fruit that ripened; a warning light",
+    "a dance; delivery routes across a city; a football play; migration",
+    "a sunrise; a moment of recognition; unveiling a sculpture"
+   ]
+  },
+  {
+   "slug": "ink-wash",
+   "cn": "中国水墨",
+   "en": "Chinese Ink Wash",
+   "category": "手绘与绘画",
+   "uses": [
+    "Wuxia",
+    "Cultural brands",
+    "Poetry"
+   ],
+   "look": "Xieyi ink painting on rice paper, animated: blank paper is space, one brushstroke is a mountain, a wave, a gesture or a cut.",
+   "music": "Guqin-led, not piano and strings: guqin (core/audio/pluck.py guqin: open and stopped strings, slides, vibrato, glassy harmonics, sweeps), a low breathy xiao, big drum and timpani for mass, frame drum for steps, a small gong for a seal. Chinese pentatonic…",
+   "fits": [
+    "a product born from one line; a city growing from a single street; a day beginning with one bird",
+    "a door opening in a wall; a crowd parting; an absence in a family portrait",
+    "a dancer's phrase that spells a word; a signature; a chef's knife work",
+    "a sprint finish; a decision; a comet"
+   ]
+  },
+  {
+   "slug": "iso-infographic",
+   "cn": "等距信息图",
+   "en": "Isometric Infographic",
+   "category": "信息与发布",
+   "uses": [
+    "Process explainers",
+    "Supply chains",
+    "Annual reports"
+   ],
+   "look": "A system diagram comes alive: an isometric diorama of flat three-tone blocks, thin ink labels and Isotype numbers, where things open up to show their insides and the numbers are drawn, not stated.",
+   "music": "Music: acoustic and light: kalimba, marimba, nylon guitar, pizzicato, woodblock and hand percussion (shaker, bongo, cajon), upright or synth bass, glockenspiel, toy piano, or a clean electronic pulse for technical systems. A short motif can mark the subject…",
+   "fits": [
+    "a heart's chambers; a server rack; a beehive",
+    "votes in an election; litres of water per product; users of an app",
+    "one patient in a hospital; one packet in a network; one tree in a forest",
+    "a chip on a circuit board; a worker's hands; a crack in a bridge"
+   ]
+  },
+  {
+   "slug": "lidar-survey",
+   "cn": "点云测绘",
+   "en": "LiDAR Survey",
+   "category": "实证影像",
+   "uses": [
+    "Archaeology & heritage",
+    "Forestry & environment",
+    "Infrastructure & site surveys"
+   ],
+   "look": "Real airborne laser points of a real place, floating in the dark as a measured cloud; a scan line or a cutting plane passes through them and the points condense into a solid, raking-lit surface, which is then measured…",
+   "music": "Instrument sounds: FM pings, fine crackle as points arrive, noise sweeps tied to a front, ticks that divide (8ths → 16ths → 32nds) to accelerate, a descending pitched blip per peeled layer, a ratchet while a counter rolls, a ping when a reading lands.",
+   "fits": [
+    "a site visit before a design; what the satellite misses; a quarry's real volume",
+    "archaeology under forest; a hidden trail; flood channels; landslide scars",
+    "a building scan to a BIM shell; a cliff to a hazard model; a street to a vehicle clearance model",
+    "a levee's height; a bridge's clearance; a road cut"
+   ]
+  },
+  {
+   "slug": "living-screencast",
+   "cn": "活体实机录屏",
+   "en": "Living Screencast",
+   "category": "信息与发布",
+   "uses": [
+    "Product tutorials",
+    "Feature launches",
+    "Onboarding"
+   ],
+   "look": "A product walkthrough that looks like a real screen recording, where a low-resolution mascot lives inside a high-resolution interface and acts out what the software is doing.",
+   "music": "Two resolutions in the music: a hi-fi layer (piano, upright or electric bass, brushed or tight kit, glockenspiel, real samples) is the world; a chiptune square or pulse voice is the mascot. They can trade, duet or merge.",
+   "fits": [
+    "a CLI tool moving into an app; an icon becoming an assistant; a spinner becoming a helper",
+    "an empty state; a new-project dialog; a welcome email",
+    "a message flying into a thread; an upload bar; a drag-and-drop",
+    "indexing a library; a data import; a build"
+   ]
+  },
+  {
+   "slug": "lowpoly-island",
+   "cn": "低多边形等距",
+   "en": "Low-poly Isometric Island",
+   "category": "材质与 3D",
+   "uses": [
+    "Game trailers",
+    "World building",
+    "Calm content"
+   ],
+   "look": "A tiny faceted world seen through an orthographic isometric lens: everything is a geometric block, and everything that appears arrives with a bounce and a note.",
+   "music": "Music can be event-driven: growth events carry a note, and the score synthesizes each one at its exact time, so the picture writes the tune. Pitched percussion suits the facets: marimba, kalimba, woodblock, bells, vibraphone, celesta, steel drum; underneath,…",
+   "fits": [
+    "a skyline whose floors are notes; a team assembling a product; a garden whose flowers form a chord",
+    "a startup's first year; a coral reef recovering; a neighbourhood being planned",
+    "one user among millions; a village on a continent; a data centre inside a network",
+    "a machine being assembled; a museum object; a house renovation"
+   ]
+  },
+  {
+   "slug": "microgame",
+   "cn": "微游戏快闪（瓦里奥制造式）",
+   "en": "Microgame Frenzy",
+   "category": "游戏",
+   "uses": [
+    "Game trailers",
+    "Onboarding",
+    "Social shorts"
+   ],
+   "look": "A rapid-fire party-game film: one command word, a few seconds, one action. Every microgame is drawn in a completely different art style, and the film keeps getting faster.",
+   "music": "Music first: a tempo grid and a cue table before any animation; every picture hit lands on a listed cue.",
+   "fits": [
+    "the steps of baking bread (flour in crayon, oven dial in blueprint, crust in woodcut); a day of a nurse; a heist's roles",
+    "SCAN! at a checkout; BREATHE! in a yoga class; SIGN! at a contract signing",
+    "a phone battery; retries on a driving test; chances left on a quiz",
+    "rush hour; the last week before a deadline; a kitchen during dinner service"
+   ]
+  },
+  {
+   "slug": "microscope",
+   "cn": "显微叙事",
+   "en": "Microscope Story",
+   "category": "实证影像",
+   "uses": [
+    "Biomedicine & pathology",
+    "Materials & surface science",
+    "Skincare & cosmetic science"
+   ],
+   "look": "Real, licence-clean microscopy of a real specimen, seen as it is, and one continuous change of scale that carries the viewer from the glass slide in the hand to a single cell. Focus breathes when the magnification…",
+   "music": "Instrument foley: the objective turret (a click, a detent, a small metal ring), a focus servo, pen on glass for each line drawn, a band-passed scan travelling left to right with counter ticks that speed up, a soft filtered sweep for the focal plane.",
+   "fits": [
+    "a biopsy to its cells; a coated surface to its crystals; a hair or skin section to its layers",
+    "collagen in tissue; porosity in a ceramic; coverage of a coating; pigment in a sample",
+    "treated against untreated; edge against centre; before against after",
+    "a nucleus; a grain; a fibre's diameter"
+   ]
+  },
+  {
+   "slug": "midcentury-toon",
+   "cn": "50s 扁平卡通",
+   "en": "Mid-century Cartoon",
+   "category": "卡通与动画",
+   "uses": [
+    "Product set-up guides",
+    "Help-centre explainers",
+    "How-to steps"
+   ],
+   "look": "1950s flat colour and limited animation for \"follow along\" films: colour printed a few pixels off its broken ink line, bodies that hold still while hands do the work, abstract colour-block rooms, a calm classroom…",
+   "music": "Music: an original West-Coast cool-jazz combo: flute or muted trumpet, vibraphone (chords, arpeggios, glissandi, tremolo), pizzicato walking bass, brushes (sticks on the ride for energy), celesta, bongos or finger snaps. Not ragtime, not a spy big band, not…",
+   "fits": [
+    "museum rules; a bank app screen; hotel check-in",
+    "threading a sewing machine; changing a bike tyre; setting a thermostat",
+    "a dosage on a measuring cup; a torque value on a bolt; a PIN on a keypad",
+    "a pool's five rules; a checklist for a flight; stages of a recycling sort"
+   ]
+  },
+  {
+   "slug": "one-line",
+   "cn": "一笔画",
+   "en": "One-line Drawing",
+   "category": "手绘与绘画",
+   "uses": [
+    "Brand stories",
+    "Life milestones",
+    "Minimal ads"
+   ],
+   "look": "A single ink line that never leaves the paper. Everything on screen is that one line being drawn; scenes don't cut, they morph.",
+   "music": "Music: one solo instrument, one unbroken melodic line, the sound equivalent of the drawing: a bowed or plucked string (cello, violin, viola, harp), a solo woodwind (clarinet, flute, bassoon), a hummed voice, a single guitar. A second colour only as a rare…",
+   "fits": [
+    "a river from source to sea; a relay race; a production line",
+    "a building aging; a runner tiring; a machine wearing out",
+    "a seed becoming a tree becoming a table; a sketch becoming a product; a word becoming its object",
+    "a power cut; a pause for a minute's silence; a hesitation before a signature"
+   ]
+  },
+  {
+   "slug": "paper-lantern",
+   "cn": "纸雕灯影",
+   "en": "Paper-cut Lightbox",
+   "category": "东方传统",
+   "uses": [
+    "Festivals",
+    "Gift brands",
+    "Cultural stories"
+   ],
+   "look": "A layered paper-cut shadow box (纸雕灯) lit from behind: 6–9 sheets of cut card stacked in a shallow box, a warm light glowing through the paper, windows and moons burning through holes, soft shadows falling from each…",
+   "music": "Instruments that sit like light behind paper: felt piano, music box, celesta, harp or plucked zithers, bamboo flutes, soft strings; a solo instrument of the topic's culture. No drum kit; percussion only as single soft strokes (woodblock, small gong, hand…",
+   "fits": [
+    "a shop opening at dawn; a startup's first customer; a stadium before a match",
+    "a long-distance friendship; two labs working on the same problem; a sister city pair",
+    "a migration route; shipping a parcel; the history of a river",
+    "a recipe; the terms of a treaty; a child's first word"
+   ]
+  },
+  {
+   "slug": "paper-popup",
+   "cn": "纸片立体书",
+   "en": "Paper Pop-up Book",
+   "category": "材质与 3D",
+   "uses": [
+    "Children's books",
+    "Game trailers",
+    "Story films"
+   ],
+   "look": "A pop-up book on a real desk becomes a stage: flat cut-paper actors with white borders perform in front of paper sets that spring up from the page, under real lamp light and a real macro lens.",
+   "music": "Music: whimsical, acoustic or toy-like: music box, pizzicato strings, clarinet, glockenspiel, ukulele, toy piano, brushes. Options: a warmer cue for anything in the real room; a bar-aligned internal edit of a library track so its ending lands on a picture…",
+   "fits": [
+    "a project launch; a first school day; a recipe book",
+    "stages of a process; a farm's seasons; chapters of a biography",
+    "a forecast; old way/new way; a lock opening",
+    "a mistake becoming a lesson; recycling; a rejected draft becoming the design"
+   ]
+  },
+  {
+   "slug": "papercut-red",
+   "cn": "红色窗花剪纸",
+   "en": "Red Paper-cut",
+   "category": "东方传统",
+   "uses": [
+    "Lunar New Year",
+    "Festive greetings",
+    "Folk tales"
+   ],
+   "look": "Chinese window-flower paper-cuts brought to life: jointed red cut-outs on paper grounds, where the cut is the drawing and the holes are where the light gets in.",
+   "music": "Instruments: a bright Chinese chamber ensemble, not piano and strings and not the opera percussion of shadow puppetry: pipa (tremolo on long notes), zheng (dantranh: broken chords, glissandi, tremolo), erhu (glides), dizi (flute), sheng or yangqin colours,…",
+   "fits": [
+    "one teacher, many students; a single design mass-produced; one seed becoming a field",
+    "an idea shining through a person; a lighthouse; a window at night in a story about home",
+    "a franchise; cell division; a song spreading through a crowd",
+    "recycling; leftover time; small failures that add up"
+   ]
+  },
+  {
+   "slug": "pictogram-motion",
+   "cn": "象形运动图形",
+   "en": "Pictogram Motion",
+   "category": "图形与排版",
+   "uses": [
+    "Sports events",
+    "Visual identity",
+    "Event openers"
+   ],
+   "look": "A beat-locked flash-card film built from three things only: a square-grid \"core graphic\" of circles, half-discs and tiny patterned cells whose rows slide past each other; geometric pictograms made of round-capped bars…",
+   "music": "Type and music can carry the film alone; a voice is optional, calm, one line per chapter at most.",
+   "fits": [
+    "every tool in a workshop; every station of a subway line; every dish of a regional cuisine",
+    "instrument sections of an orchestra; food groups; departments of a company",
+    "yoga poses; kitchen techniques; jobs on a construction site",
+    "four knife cuts; the bones of a hand; weekday routines"
+   ]
+  },
+  {
+   "slug": "pixel-rpg",
+   "cn": "16-bit 像素 RPG",
+   "en": "16-bit Pixel RPG",
+   "category": "游戏",
+   "uses": [
+    "Game trailers",
+    "Recaps",
+    "Nostalgia"
+   ],
+   "look": "A short film that looks, sounds and behaves like a mid-90s console role-playing game: 320×180 pixels, a limited indexed palette, text boxes that type, menus, save files, chip music with echo.",
+   "music": "Chiptune voices: pulse waves at 12.5/25/50 % duty, 4-bit triangle bass, LFSR noise drums, wavetable leads, SNES-style echo (a few taps ~180–370 ms, feedback ~0.4, low-pass in the loop). Original melodies only.",
+   "fits": [
+    "a city blackout and recovery; a company in crisis; burnout and rest",
+    "a family heirloom; a brand colour across decades; a team jersey",
+    "versions of a product; chapters of a career; photo albums",
+    "a team member leaving; a skill learned; a budget"
+   ]
+  },
+  {
+   "slug": "risograph",
+   "cn": "Risograph 丝网印刷",
+   "en": "Risograph Print",
+   "category": "印刷与版画",
+   "uses": [
+    "Indie brands",
+    "Zines",
+    "Lifestyle"
+   ],
+   "look": "Animation that looks printed, frame by frame, on a stencil duplicator: two or three translucent spot inks overprinted on warm paper, halftone dots, ink grain, and plates that never quite line up.",
+   "music": "Instruments, as options: warm, dry, handmade, slightly lo-fi: upright or electric bass, vibraphone or marimba, nylon guitar, whistled or hummed melody, Rhodes, toy piano, brushed kit, shaker and rim clave, a small drum machine through tape saturation.",
+   "fits": [
+    "a product arriving as a new ink; a city history, one ink per era; colour returning during a recovery",
+    "a merger; a duet; two data sets whose overlap is the finding",
+    "a pill dissolving; a spotlight becoming a moon; a stamp becoming a map pin",
+    "nerves before a speech; dizziness; a memory coming into focus"
+   ]
+  },
+  {
+   "slug": "rubber-hose",
+   "cn": "1930s 橡皮管卡通",
+   "en": "1930s Rubber Hose Cartoon",
+   "category": "卡通与动画",
+   "uses": [
+    "Food & drink",
+    "Retro ads",
+    "Kids"
+   ],
+   "look": "Black-and-white hand-inked cartoons where every object is alive and swings to a hot jazz band.",
+   "music": "Mickey-mouse the score, as options: a band member \"answering\" a character (trombone raspberry, trumpet laugh); a stop (hard silence, reverb tails too) before a gag or on a stare; a stinger per gag; slide whistle for every stretch or fall; a prop that is an…",
+   "fits": [
+    "a factory at shift change; a garden after rain; a city waking up",
+    "stairs as a piano; a typewriter as a drum kit; fence posts as a xylophone",
+    "reaching a top shelf; a long-distance handshake; catching a falling baby bird",
+    "an idea turning into a product; a problem into a tool; a word into an object"
+   ]
+  },
+  {
+   "slug": "satellite-briefing",
+   "cn": "卫星简报",
+   "en": "Satellite Briefing",
+   "category": "实证影像",
+   "uses": [
+    "Climate & environment",
+    "Investigations & news explainers",
+    "Geography & history"
+   ],
+   "look": "Real satellite imagery of a real place, graded down to an analyst's grey, with thin white measurement lines drawn on the ground: a lock-on reticle, outlines, a range line, one reading. One continuous zoom built from…",
+   "music": "Telemetry: FM pings (a lock-on ping worth bringing back), dry ticks on the grid that divide to accelerate, noise scans (rising for a rewind, falling forward), servo whines, a ratchet for a range line.",
+   "fits": [
+    "a lake still on maps but gone; a cleared concession forest; a planned city never built",
+    "a glacier's retreat; a city's sprawl; a fire scar season after season",
+    "how far a shore moved; a village to its well; a camp to the border",
+    "locating anything; a scale reveal; an ending that returns one place to the planet"
+   ]
+  },
+  {
+   "slug": "scifi-toon",
+   "cn": "科幻情景喜剧卡通",
+   "en": "Sci-Fi Sitcom Toon",
+   "category": "卡通与动画",
+   "uses": [
+    "Comedy",
+    "Tech brands",
+    "Social shorts"
+   ],
+   "look": "Adult-animation sci-fi sitcom: thick boiling outlines, flat colour, a duo whose reactions don't match, a glowing portal, and one palette per world.",
+   "music": "Synthesized score, no samples needed. A theremin-like lead (sine + a little 2nd/3rd harmonic, legato portamento ~70 ms, vibrato fading in ~150 ms after each onset, spring reverb) over analog bass, a square-wave arpeggio and a retro drum machine. Minor modes…",
+   "fits": [
+    "versions of a product; careers you could have had; the same city in five eras",
+    "a veteran and a new hire; a parent and a teenager; an AI and its user",
+    "failed prototypes; bad date ideas; tax forms",
+    "the one boring answer that works; a quiet office after chaos; the real customer"
+   ]
+  },
+  {
+   "slug": "shadow-puppet",
+   "cn": "皮影戏",
+   "en": "Shadow Puppetry",
+   "category": "东方传统",
+   "uses": [
+    "Myths & folklore",
+    "Heritage",
+    "Festivals"
+   ],
+   "look": "Chinese shadow theatre: translucent dyed-hide puppets, carved like lace, pressed against a cotton screen and lit from behind by oil lamps.",
+   "music": "Percussion first, not piano and strings (gong-and-drum pattern thinking, 锣鼓经): low barrel drum, hard high clapper drum (woodblock), cymbals, small gong with rising pitch (\"tai\"), big gong with falling pitch (\"kuang\"); also a bamboo clapper board, pellet drum,…",
+   "fits": [
+    "city lights spreading at night; a fever rising and falling; servers switching on one by one",
+    "a rumour growing; a memory fading; a deadline pressing onto the cloth and snapping sharp",
+    "how a product is really made; who controls a market; a teacher revealing the method",
+    "an x-ray of a system; good and bad actors in a fable; layers of a city"
+   ]
+  },
+  {
+   "slug": "silent-film",
+   "cn": "1920s 默片",
+   "en": "1920s Silent Film",
+   "category": "电影与时代",
+   "uses": [
+    "Comedy",
+    "Retro brands",
+    "Silent storytelling"
+   ],
+   "look": "An engraved-illustration silent film projected in a picture house: ink line and silver wash, a 4:3 print that flickers and weaves between velvet curtains, intertitles instead of voices, and a cinema pianist who plays…",
+   "music": "The instrument is the sound design, as in a picture house: an upright piano (optionally a reed organ, theatre organ, violin or small ensemble) plays every event. Mickey-mousing vocabulary (options): chromatic creep in the bass (sneaking), grace note (a wink),…",
+   "fits": [
+    "a supply chain gone wrong; how a rumour spreads; a Rube Goldberg invention",
+    "catching a bus; a startup missing a deal; a goalkeeper",
+    "\"Meanwhile, in the lab…\"; \"The machine had other ideas",
+    "rush hour; a kitchen at dinner service; a stock crash"
+   ]
+  },
+  {
+   "slug": "silkscreen-poster",
+   "cn": "丝印旅行海报",
+   "en": "Silkscreen Travel Poster",
+   "category": "印刷与版画",
+   "uses": [
+    "Trail & destination guides",
+    "Tourism promos",
+    "Event posters"
+   ],
+   "look": "Opaque, hard-edged flat inks pulled one colour at a time through a screen: 4–6 inks per poster, stepped colour bands instead of gradients, thin paper-white gaps where the registration slips. Information is revealed the…",
+   "music": "Acoustic, hand-played instruments: strummed guitar, slide guitar, harmonica, upright bass, cajon or brushes, banjo, fiddle, accordion, harmonium, ukulele. Choose the family from the place: folk, surf, bossa or brass band all fit.",
+   "fits": [
+    "museum hours; a ferry timetable; tasting notes",
+    "a festival's night sky; a sunset beach bar; a rainbow of colourways",
+    "summer vs winter hours; three jacket colourways; day and night at a market",
+    "the date of a race; a launch price; a ticket sale opening"
+   ]
+  },
+  {
+   "slug": "spy-titles",
+   "cn": "60s 间谍片头",
+   "en": "60s Spy Title Sequence",
+   "category": "图形与排版",
+   "uses": [
+    "Title sequences",
+    "Event openers",
+    "Trailers"
+   ],
+   "look": "A cut-paper, four-ink opening title sequence for a film that never existed: silhouettes move through sets built out of the credits themselves, every brass stab is a cut, and a title is assembled from the pieces.",
+   "music": "1960s spy big band: stacked staccato trumpets and trombones in octaves with crash (the stab), surf guitar low-string twang through a spring reverb, walking upright bass, brushes or sticks, bongos and shakers, vibraphone, flute, organ stabs, harpsichord. Minor…",
+   "fits": [
+    "a conference programme as a city; a menu as a restaurant; team names as a stadium",
+    "a product's features; a festival line-up; an award's nominees",
+    "a coin → a planet → a clock; a gear → a wheel → a sun",
+    "a puzzle solved; a team forming; a logo assembled"
+   ]
+  },
+  {
+   "slug": "stained-glass",
+   "cn": "彩色玻璃窗",
+   "en": "Stained Glass",
+   "category": "图形与排版",
+   "uses": [
+    "Legends",
+    "Heritage",
+    "Holiday stories"
+   ],
+   "look": "A medieval stained-glass window seen from inside a dark stone hall, alive only where the sun touches it: light is the clock, the camera and the story.",
+   "music": "Instruments: organ (pedal drone, soft stops, full), harp, hand chimes, tubular bells, recorder or a chant-like voice, water-glass notes, timpani; also hurdy-gurdy drone, psaltery, portative organ. No generic piano or strings.",
+   "fits": [
+    "the steps of a recipe; a factory's shifts; four seasons of one farm",
+    "a memory seen larger than life; a sports play replayed as shadows; a data trend drawn by lengthening light",
+    "a company's reinvention; an injury and recovery; an old building restored",
+    "a lighthouse keeper; a night-shift nurse; a server that never sleeps"
+   ]
+  },
+  {
+   "slug": "swiss-motion",
+   "cn": "瑞士动态排版",
+   "en": "Swiss Motion Graphics",
+   "category": "图形与排版",
+   "uses": [
+    "Brand identity",
+    "Events",
+    "Design education"
+   ],
+   "look": "International Typographic Style in motion: a modular grid, one typeface, one signal colour, and movement as exact as a printing press.",
+   "music": "Music with a grid of its own: a steady pulse whose subdivisions give snap durations. Options: motorik / krautrock kit and bass, minimal techno, marimba or vibraphone patterns, a mechanical piano ostinato, a drum machine with a glockenspiel; one instrument…",
+   "fits": [
+    "a building's floors and rooms; a week's timetable; a city's districts",
+    "a product's feature list; the steps of a recipe; a countdown",
+    "a brand identity; a typeface family; a set of stamps",
+    "a record statistic; a year; a price"
+   ]
+  },
+  {
+   "slug": "teardown",
+   "cn": "产品拆解",
+   "en": "Exploded Teardown",
+   "category": "实证影像",
+   "uses": [
+    "Hardware launches",
+    "E-commerce product pages",
+    "Technical marketing & spec explainers"
+   ],
+   "look": "A real product, built from its own engineering files (CAD, PCB layout, bill of materials), lit like a studio packshot and taken apart in front of the camera: the layers lift on one axis, the camera travels between them,…",
+   "music": "Instruments: tuned mallets (marimba, vibraphone, glockenspiel, glass), a round bass, a short synthetic kick and small dry percussion. Precise and dry outside the object; sustained and airy inside it.",
+   "fits": [
+    "battery cells; solar tiles; the drawers of a modular shelf",
+    "the back of a logic board; the inside of a drone arm; the underside of a sensor module",
+    "a pressure sensor in a shoe; a gasket in a waterproof case; a motor driver",
+    "the thickness of a laptop lid; the footprint of a router; the bore of a valve"
+   ]
+  },
+  {
+   "slug": "tilt-shift",
+   "cn": "移轴微缩",
+   "en": "Tilt-Shift Miniature",
+   "category": "材质与 3D",
+   "uses": [
+    "City promos",
+    "Real estate",
+    "Transport"
+   ],
+   "look": "A real-looking place photographed from high above with a tilted lens and a time-lapse camera, so the whole world reads as a tabletop model.",
+   "music": "Ensemble: tuned percussion carries the style (marimba, glockenspiel, vibraphone, woodblocks, kalimba, celesta), pulse-based and minimalist (Reich grammar: phasing, voices added one at a time, pulsing chords), plus plucked strings or a small reed section. Not…",
+   "fits": [
+    "one worker finishing a shift; a child dropping an ice cream; a proposal on a crowded pier",
+    "a courier through a market; a single wrong-way skier; one boat leaving port",
+    "a port unloading ships; an airport's turnaround; a farm harvest",
+    "ferries crossing a bay; runners with headlamps; lanterns along a river"
+   ]
+  },
+  {
+   "slug": "ukiyoe",
+   "cn": "浮世绘",
+   "en": "Ukiyo-e",
+   "category": "东方传统",
+   "uses": [
+    "Travel",
+    "Japanese culture",
+    "Poetry"
+   ],
+   "look": "Edo-period woodblock prints brought to life: flat colour blocks, carved ink lines, bokashi skies, paper you can feel, and a camera that moves over the print like an unrolling handscroll.",
+   "music": "Japanese instruments, not piano and pads: shamisen (core/audio/pluck.py shamisen, with sawari buzz), shakuhachi, koto, taiko and shime-daiko, kotsuzumi / ōtsuzumi calls, hyōshigi (wooden clappers), a small bell.",
+   "fits": [
+    "one building through a century; a product in five homes; the same street in four seasons",
+    "a supply chain; the stations of a pilgrimage; the steps of a recipe",
+    "a building going up; an idea taking shape; a character being \"made\" for the story",
+    "a snowfall that erases a town; forgetting; a clean start"
+   ]
+  },
+  {
+   "slug": "urban-sketch",
+   "cn": "钢笔淡彩",
+   "en": "Urban Sketch · Pen & Wash",
+   "category": "手绘与绘画",
+   "uses": [
+    "City & travel",
+    "Architecture",
+    "Lifestyle brands"
+   ],
+   "look": "A sketchbook page drawn on location: fine sepia fineliner lines that wobble, overshoot and never quite close, with loose transparent watercolour dropped on top. The colour sits slightly off the lines, spills over them,…",
+   "music": "Music families: a jazz waltz (walking bass in three, brushes, piano, clarinet or flute); a café accordion trio; solo nylon guitar; a string quartet pizzicato; a brass band for crowds. One colour instrument per area of the page works well.",
+   "fits": [
+    "a cathedral façade; a chef plating a dish; a street musician",
+    "a sunrise over a harbour; a parade moving down a street; the lights of a market switching on",
+    "a red umbrella in the rain; a yellow taxi; a child's kite",
+    "a travel diary entry; a neighbourhood portrait; a day in a place"
+   ]
+  },
+  {
+   "slug": "watercolor",
+   "cn": "水彩笔刷",
+   "en": "Watercolor Brush",
+   "category": "手绘与绘画",
+   "uses": [
+    "Nature documentary",
+    "Travel",
+    "Science explainers"
+   ],
+   "look": "A hand-painted journal page that paints itself: translucent brush strokes with dry-brush flying white on warm cotton paper, hand-written notes beside what is painted, nothing drawn with a vector line.",
+   "music": "Music: acoustic and gentle: felt piano, fingerpicked guitar, woodwinds, light strings, glockenspiel, kalimba, soft pads. A licensed track can be edited with beat-aligned jumps; the picture can then take its beat grid.",
+   "fits": [
+    "the stages of a building; the ingredients of a dish; the organs of a body",
+    "a festival crowd; a field in bloom; a city lighting up",
+    "pollution along a river; temperature by altitude; noise across a city",
+    "a tool kit; a wine region's grapes; parts of a bicycle"
+   ]
+  },
+  {
+   "slug": "white-model",
+   "cn": "白模投影",
+   "en": "Projection on White Model",
+   "category": "实证影像",
+   "uses": [
+    "Urban planning & real estate",
+    "Exhibitions & showrooms",
+    "City data & history"
+   ],
+   "look": "A pure white massing model of a real place stands on a plinth in a dark room, and a projector paints data onto it as light: one layer at a time, falling on the surfaces that face it, spilling a little past the plate.…",
+   "music": "The room: room tone, the projector fan (hum + filtered air) rising when the lamp strikes, relays for the house lights, a lamp strike (zap + thump), the air of a light wash (sliding band-passed noise).",
+   "fits": [
+    "a site before and after; a district before a plan is shown; any \"now look closer\"",
+    "a war-damaged centre; a flood plain with no housing; land a company owns; a protected zone",
+    "a new town's growth; a campus master plan by phase; a port's expansion; a developer's portfolio by year",
+    "building heights; sea-level or flood depth; floor counts; a height limit being tested"
+   ]
+  },
+  {
+   "slug": "whiteboard",
+   "cn": "白板讲解",
+   "en": "Whiteboard Explainer",
+   "category": "手绘与绘画",
+   "uses": [
+    "Explainers",
+    "Online courses",
+    "Science"
+   ],
+   "look": "An explainer drawn live on one glossy dry-erase board: single-line handwriting that is actually written stroke by stroke, floating markers with no hand, magnets that can move, an eraser that can rewind, and a camera…",
+   "music": "Music options: a solo piano figure; a small jazz trio with brushes; plucked strings and kalimba; a synth arpeggio for tech topics; clockwork minimalism (marimba, pizzicato, woodblock, glockenspiel). Mickey-mouse details: a rising whistle for growth, pings for…",
+   "fits": [
+    "compound interest; the Drake equation; a recipe's ratios",
+    "a nerve signal; a supply chain; the water cycle",
+    "a delivery truck on a route; a cell in a bloodstream; a player on a pitch",
+    "an undo in software; reversing a chemical reaction; \"what if we hadn't…\""
+   ]
+  },
+  {
+   "slug": "woodcut",
+   "cn": "木刻版画",
+   "en": "Woodcut Print",
+   "category": "印刷与版画",
+   "uses": [
+    "Folk tales",
+    "Craft brands",
+    "Book trailers"
+   ],
+   "look": "A relief print that carves itself: every frame is a black wood block, and light only exists where a knife has cut it away. One colour at most, and only for the thing that burns.",
+   "music": "Instruments: low strings (contrabass, cellos; spiccato, pizzicato), wood and skin (log drum, woodblock, frame drum), gran cassa, timpani, one tam-tam, synthesised struck metal (modal: 3–5 inharmonic partials + hammer transient); a bowed saw or hurdy-gurdy…",
+   "fits": [
+    "a power grid switched on; a scientific insight; a lighthouse restored",
+    "a year of training; a building rising; a craft apprenticeship",
+    "a vote result; a name cleared; a misunderstanding put right",
+    "stars going out over a city; rain stopping; a disease receding on a map"
+   ]
+  }
+ ]
+}
